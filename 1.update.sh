@@ -6,6 +6,7 @@ fi
 
 apt update
 apt full-upgrade --autoremove -y
+dpkg --configure -a
 #sudo rpi-update
 echo "Done. Reboot with: sudo reboot"
 #reboot #needed to load new kernel
